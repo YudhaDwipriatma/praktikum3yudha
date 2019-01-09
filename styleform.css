@@ -1,0 +1,101 @@
+html, body, p, h1 {
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-color: red;
+}
+
+.register{
+  font-size: 40px;
+
+}
+
+.Header{
+  background-image: url(moklet2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+*:focus {
+ outline: none ;
+ }
+ .form-input, textarea, select {
+padding: 0;
+border: 0;
+width: 100%;
+}
+
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  min-height: 100vh;
+  background-image: url(moklet2.jpg);
+}
+
+label{
+    display: block;
+    padding: 10px 0;
+}
+
+form {
+  background-color: rgba(111,132, 126, 0.11 );
+  border: medium solid white;
+
+}
+
+.form-input{
+border-bottom: 2px solid #333;
+transition: 0.3s;
+padding: 5px 0;
+}
+
+.form-input:focus {
+border-color: #ddd;
+}
+
+textarea, select{
+  border: 2px solid #333;
+  padding:5px;
+  }
+
+input[type="submit"]{
+  width: 100%;
+  height: 30px;
+  background-color: #333;
+  border: 2px solid #333;
+  color: white;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover{
+  background-color: white;
+  color: #333;
+}
+
+form{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form {
+  background-color: white;
+}
+
+h1{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 72px;
+font-style: oblique;
+
+}
